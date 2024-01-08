@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#skills{
+    border-bottom: 2px solid rgb(81, 101, 139);
+}
+body {
+    background-color: rgb(157, 183, 232);
+}
+
+span {
+    color: rgb(81, 101, 139);
+}
+
+.hero {
+    height: 14vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 8% 0;
+    height: 60px;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(81, 101, 139);
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(81, 101, 139);
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(81, 101, 139);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(81, 101, 139);
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.social a:hover {
+    cursor: pointer;
+    background-color: rgb(157, 183, 232);
+    border: 2px solid rgb(81, 101, 139);
+}
+
+
+.plogs,
+.category-selection {
+    background-color: rgb(81, 101, 139);
+    color: white;
+    padding: 40px 8%;
+    text-align: center;
+}
+
+.plogs h2,
+.category-selection h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.plogs p,
+.category-selection p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.category-selection ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.category-selection li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+

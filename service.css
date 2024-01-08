@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    }
+    span{
+        color:  rgb(81, 101, 139);
+    }
+    .hero{
+         height:14vh; 
+        width: 100%;
+            
+        
+        }
+        nav{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            padding: 45px 8% 0;
+            height: 60px;
+        }
+        .logo{
+            color: white;
+            font-size: 35px;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+        nav ul li {
+            list-style-type: none;
+            display:inline-block;
+            padding: 10px 25px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover{
+            color:  rgb(81, 101, 139);
+        }
+        .btn{
+            color: white;
+            text-decoration: none;
+            background-color:  rgb(81, 101, 139);
+            font-weight: bold;
+            padding: 15px 30px;
+            border-radius: 25px;
+        }
+        .btn:hover{
+            cursor: pointer;
+            background-color:  rgb(81, 101, 139);
+            /* border: 2px solid #f9004d; */
+        
+        }
+    
+
+    .service{
+        background-color: #101010;
+        width: 100%;
+        padding: 100px 0;
+    }
+    .title h2{
+        color: white;
+        font-size: 50px;
+        width: 1130px;
+        margin: 30px auto;
+        text-align: center;
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+       
+    }
+    #service{
+        border-bottom: 2px solid rgb(81, 101, 139);
+    }
+
+  .card{
+    height: 430px;
+    width: 335px;
+    padding: 20px 35px;
+    background:  rgb(157, 183, 232);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 45px;
+    position: relative;
+   margin-right: 5px;
+    text-align: center;
+    border:5px solid rgb(81, 101, 139);
+    /* border-top:5px solid rgb(81, 101, 139); */
+  }
+    .card i {
+        font-size: 50px;
+        display: block;
+        text-align: center;
+        margin: 25px 0;
+        color: rgb(81, 101, 139);
+    }
+    h5{
+        color: white;
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .pra p{
+        color: white;
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 25px;
+    }
+    .card .button{
+        background-color:rgb(81, 101, 139);
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        border: 2px;
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+    }
+    .card .button:hover{
+        cursor: pointer;
+    }
+    body{
+    background-color: rgb(157, 183, 232);
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social a{
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(81, 101, 139);
+        border-radius: 50%;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        margin: 10px;
+    }
+    .social a:hover{
+        cursor: pointer;
+        background-color:  rgb(157, 183, 232);
+        border: 2px solid rgb(81, 101, 139);
+    }
+    footer{
+        
+        width: 100%;
+        margin-top: 10px;
+        
+        background: rgb(157, 183, 232);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        }
+        footer p:nth-child(1){
+            color: white;
+            font-size: 30px;
+            margin-bottom: 20px;
+            font-weight: bold;
+    
+        }
+        span{
+            color:  rgb(81, 101, 139);
+        }
+        footer p:nth-child(2){
+            color: white;
+            font-size: 17px;
+            width: 500px;
+            text-align: center;
+            line-height: 26px;
+        }
